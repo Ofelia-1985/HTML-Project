@@ -1,0 +1,122 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto HTML-Carmen</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Carmen O. Urbina Lopez</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#Dadosp">Dados Pessoais</a></li>
+                    <li><a href="#Formacao">Formac&atilde;o Acad&ecirc;mica</a></li>
+                    <li><a href="#Idioma">Idioma</a></li>
+                    <li><a href="#ExperienciaLaboral">Experi&ecirc;ncia Laboral</a></li>              
+                </ul>
+            </nav><br>
+
+        </header>  
+
+        <!--Foto-->
+        <img src="img/Carmen-Foto.jpeg" alt="Carmen-Foto" width="300">
+            
+        <main>
+            <article>
+              <h3 id="Dadosp">Dados Pessoais</h3>
+                 <ul>
+                    <li>Email: urbinalcarmen@gmail.com</li>
+                    <li>Celular: (21)993-855282</li>
+                    <li>Endereço: Taquara - Rio de Janeiro</li>
+                 </ul>
+            </article>
+
+            <article>
+              <h3 id="Formacao">Formaç&atilde;o Acad&ecirc;mica</h3>
+                 <ul>
+                    <li>Desenvolvedora de Jogos Jr. - Toti</li>
+                    <li>Internet of everything - Cisco</li>
+                    <li>Get-Connect - Cisco</li>
+                    <li>CCNA1- Cisco </li>
+                    <li>Ensino Superior em Administracao Incompleta</li>
+                    <li>Ensino Superior em Pedagogia Imcompleto</li>
+                 </ul>    
+            </article>
+
+            <article>
+                <h3 id="ExperienciaP">Experi&ecirc;ncia Profissional</h3>
+                <ul>
+                    <li>Discart302 C.A</li>                   
+                    <li>Dulzaina C.A</li>
+                    <li>U.E. Emilio Crespo</li>
+                    <li>Carrefour</li>
+               </ul>
+            </article>
+
+            <article>
+                <h3 id="Idioma">Idioma</h3>
+                  <ul>
+                     <li>Español(Nativo)</li>
+                     <li>Portugues(Fluente)</li>
+                     <li>Ingles(Basico)</li>
+                  </ul>
+             </article>
+        </main> 
+
+            <!--Formulario de contato-->
+        <form action="email" method="POST">  
+            <h3>Formul&aacute;rio de Contato</h3>  
+
+            <!--Nome do usuario-->
+            <p>
+              <label for="nome">Nome:</label>                            
+                <input type="text" name="nome" id="nome" placeholder="Nome"required>
+            </p>
+
+            <!--Email do Usuario-->
+            <p>
+              <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="exemplo@email.com"required>
+            </p>
+
+            <!--Telefone do Usuario-->
+            <p>
+              <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefono" placeholder="(55) 555-555555">
+            </p>    
+
+            <!--Assunto-->        
+            <p>
+              <label for="assunto">Assunto</label>
+                <input type="text" name="asunto" id="assunto"placeholder="Assunto"required>
+            </p>   
+
+            <!--Mensagem-->
+            <p>
+              <label for="mensagem">Mensagem</label><br>
+              <!--Caixa de Mensaje-->                 
+              <textarea name="mensagem"  placeholder="Deixa uma mensagem" cols="30" rows="10"></textarea> 
+            </p>          
+
+             <!--Botao para enviar-->
+            <button type="submit">Enviar</button>    
+            
+             <!--Botao para Limpiar-->
+             <button type="reset">Limpiar</button>  
+      </form>   
+                    
+        <footer>
+            <h3>Midias Sociais:</h3>
+            <img src="img/linkedin-icon.jpg" alt="linkedin-icon" width="30">
+            <a href="https://www.linkedin.com/in/carmen-ofelia-urbina-lopez/" target="blank">Linkedin - </a>
+            <img src="img/github-icon.png" alt="github-icon" width="30">
+            <a href="https://github.com/Ofelia-1985" target="blank">GitHub - </a>
+            <img src="img/fb.jpg" alt="fb" width="30">
+            <a href="https://www.facebook.com/krmen.urbina/" target="blank">Facebook</a>
+            <img src="img/ig.jpg" alt="ig" width="30">
+            <a href="https://www.instagram.com/urbinalcarmen/" target="blank">Instagram</a>
+        </footer>
+    </body>
+</html>
